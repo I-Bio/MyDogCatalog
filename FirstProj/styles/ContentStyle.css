@@ -1,3 +1,8 @@
+body
+{
+    font-family: "Segoe Print", serif;
+    color: #518504;
+}
 header
 {
     display: flex;
@@ -37,13 +42,10 @@ footer
 {
     height: 80px;
     width: 600px;
-    position: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 32px;
-    font-family: "Segoe Print", serif;
-    color: #80d554;
+    font-size: 38px;
     border: 3px solid #80d554 ;
 }
 
@@ -51,10 +53,8 @@ footer
 {
     width: 100px;
     margin-top: 20px;
-    margin-left: 60px;
     text-align: center;
     font-size: 16px;
-    font-family: "Segoe Print", serif;
     color: #000000;
     border: 8px solid #c7e4ff;
     background-color: #c7e4ff;
@@ -65,7 +65,7 @@ footer
     display: flex;
     flex-direction: row;
     width: 1200px;
-    height: 1200px;
+    height: auto;
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
@@ -73,37 +73,47 @@ footer
 
 .main-content
 {
-    width: 400px;
+    width: auto;
     height: 500px;
-    border: 6px solid #c7e4ff;
+    border: 6px solid #49752c;
 }
 
 .content-characteristik
 {
     height: auto;
     margin-left: 10px;
-    border: 6px solid #c7e4ff;
+    border: 6px solid #49752c;
 }
 
 .under-info
 {
-    position: center;
+    padding-left: 10px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    font-size: 22px;
-    font-family: "Segoe Print", serif;
-    color: #80d554;
+    font-size: 20px;
 }
 
 .top-title
 {
     margin: 6px;
-    border: 6px solid #c7e4ff;
+    text-align: center;
+    font-size: 32px;
+    border: 6px solid #49752c;
+}
+
+.description
+{
+    margin-bottom: 20px;
+    margin-left: 26px;
+    margin-right: 26px;
+    background-color: #c7e4ff;
+    border: 4px #80d554 solid;
 }
 
 img.main-content-image
 {
     width: 400px;
     height: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
