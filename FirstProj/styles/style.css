@@ -1,12 +1,19 @@
+html
+{
+    background-color: #f8f8f8;
+}
+
+body
+{
+    font-family: "Segoe Print", sans-serif;
+}
 header{
     height: 80px;
     width: 600px;
-    position: center;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     font-size: 38px;
-    font-family: "Segoe Print", serif;
     color: #518504;
     border: 3px solid #80d554 ;
 }
@@ -19,13 +26,9 @@ a
 hr
 {
     display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.5em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
-    border-style: inset;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
     border-width: 3px;
 }
 
@@ -36,15 +39,16 @@ footer
     font-family: "Arial Narrow", serif;
     color: #000000;
     height: 100px;
+    margin-left: auto;
+    margin-right: auto;
     border: 3px solid #6695be;
     background-color: #c6def1;
 }
 
-.catalog
+main
 {
-    width: 1000px;
-    height: 700px;
-    position: center;
+    width: auto;
+    height: auto;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -62,7 +66,7 @@ footer
     border: 3px solid #80d554;
 }
 
-.All-Dogs
+section
 {
     display: flex;
     flex-direction: row;
@@ -70,7 +74,8 @@ footer
     height: 200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .under-text
@@ -78,7 +83,6 @@ footer
     text-align: center;
     font-size: 24px;
     font-style: initial;
-    font-family: "Segoe Print", sans-serif;
     color: black;
 }
 
